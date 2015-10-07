@@ -121,7 +121,6 @@ It takes the following parameters:
 <a name="author"></a>Author
 ----
 Sidney Bofah  
-[https://github.com/sidneys](https://github.com/sidneys)
 
 
 <a name="license"></a>License
