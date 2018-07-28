@@ -38,7 +38,7 @@
                         },
                         "xcode_settings": {
                             "ARCHS": [
-                                "$(ARCHS_STANDARD)"
+                                "$(ARCHS_STANDARD_64_BIT)"
                             ],
                             "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
                             "CLANG_ENABLE_MODULES": "YES",
@@ -49,9 +49,9 @@
                             "GCC_ENABLE_CPP_EXCEPTIONS": "YES",
                             "GCC_ENABLE_CPP_RTTI": "YES",
                             "LINK_WITH_STANDARD_LIBRARIES": "YES",
-                            "MACOSX_DEPLOYMENT_TARGET": "10.11",
+                            "MACOSX_DEPLOYMENT_TARGET": "10.13",
                             "OTHER_CPLUSPLUSFLAGS": [
-                                "-mmacosx-version-min=10.10"
+                                "-mmacosx-version-min=10.13"
                             ],
                             "OTHER_LDFLAGS": [
                                  "-undefined dynamic_lookup",
