@@ -19,13 +19,13 @@ Contents
 ----
 
 Currently OSX only (see [Roadmap](#roadmap)).  
-Tested on OSX 10.10 and 10.11.
+Tested on OSX 10.13 and 10.14.
 
 
 <a name="requirements"></a>Requirements
 ----
 
-Node 4.0.0+
+Node 10.0.0+
 
 
 <a name="roadmap"></a>Roadmap
@@ -120,7 +120,7 @@ It takes the following parameters:
 
 <a name="author"></a>Author
 ----
-Sidney Bofah  
+[sidneys.github.io](http://sidneys.github.io) 2018
 
 
 <a name="license"></a>License

@@ -1,6 +1,6 @@
 {
   "name": "specialkey-emulator",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Emulate special keys (e.g. brightness, play/pause, increase volume) by emitting low-level global keyboard events - using NodeJS.",
   "license": "MIT",
   "main": "index.js",
