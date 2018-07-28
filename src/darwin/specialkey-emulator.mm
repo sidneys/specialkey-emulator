@@ -87,7 +87,7 @@ static void _postAuxiliaryKey(const UInt8 auxKeyCode)
 NAN_METHOD(emit) {
 
   // Resolve key code
-  const uint8_t keyCode = info[0]->ToUint32()->Value();
+  const uint8_t keyCode = info[0]->NumberValue();
 
   // Emit Key
   _postAuxiliaryKey(keyCode);
