@@ -220,17 +220,14 @@ function SpecialkeyEmulator(keyName, keyCallback) {
     }
 
     // Error: Key could not be resolved
-    if (!keyCode) {
+    if (typeof keyCode === 'undefined') {
         return callback(new Error('Mediakey name Error.'));
-    }
+    } else {
+      var result = nativeSpecialkeyEmulator.emit(keyCode);
 
-    // Success
-    if (keyCode) {
-        var result = nativeSpecialkeyEmulator.emit(keyCode);
-
-        if (result === keyCode) {
-            return callback(null, keyCode);
-        }
+      if (result === keyCode) {
+          return callback(null, keyCode);
+      }
     }
 }
 
